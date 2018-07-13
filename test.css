@@ -48,21 +48,26 @@ li a:hover {
 }
 
 .intro {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
         background-color: green;
         padding: 20px;
-        grid-column-gap: 20px;
-        grid-template-columns: 50px 50px;
 }
 
 .umzimba {
         background-color: yellow;
-        display: grid;
-        grid-template-columns: 100px 200px auto;
-        grid-template-rows: 50% 200px auto;
 }
 
 .message {
+        display: block;
         text-align: center;
+        height: 100%;
+}
+
+.sthombe {
+        display: block;
+        width: 100%;
 }
 img {
         padding: 20px;
