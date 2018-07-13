@@ -49,7 +49,6 @@ li a:hover {
 
 .intro {
         background-color: green;
-        display: grid;
         padding: 20px;
         grid-column-gap: 20px;
         grid-template-columns: 50px 50px;
@@ -57,10 +56,17 @@ li a:hover {
 
 .umzimba {
         background-color: yellow;
-        overflow: auto;
+        display: grid;
+        grid-template-columns: 100px 200px auto;
+        grid-template-rows: 50% 200px auto;
 }
 
-
+.message {
+        text-align: center;
+}
+img {
+        padding: 20px;
+}
 
 
 .footer {
@@ -72,5 +78,4 @@ li a:hover {
         left: 0;
         text-align: center;
         color: white;
-        overflow: hidden;
 }
