@@ -1,0 +1,203 @@
+
+body {
+        background-color: black;
+}
+.header {
+        background-image: url("http://i63.tinypic.com/15xmzbs.jpg");
+        background-repeat: repeat;
+        border-width: 3px;
+        border-style: groove;
+}
+
+h1 {
+        text-align: center;
+        color: blue;
+        font-size: 80px;
+        font-weight: bold;
+        word-wrap: wrap;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(yellow, red);
+        height: 50px;
+}
+
+li {
+        float: left;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding-right: 40px;
+        padding-left: 10px;
+        margin: 0;
+        font-size: 20px;
+        height: 50px;
+}
+
+li a:hover {
+        color: black;
+        background-color: white;
+}
+
+.welcome {
+        display: flex;
+        flex-wrap: wrap;
+        background: linear-gradient(red, green);
+}
+
+.welcome > h2 {
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        padding: 20px;
+        margin: auto auto;
+        color: white;
+}
+.intro {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: green;
+}
+
+@media screen and (max-width: 1000px) {
+        .intro > .message {
+                display: block;
+                width: 100%;
+                height: 300px;
+                margin: auto auto;
+                padding-left: 50px;
+                text-align: center;
+                border: 1px solid black;
+                text-align: center;
+                color: red;
+                overflow: hidden;
+        }
+
+        .intro > .image1 {
+                display: block;
+                background-color: green;
+                padding: 10px;
+                margin: auto auto;
+                height: 300px;
+                width: 100%;
+                overflow: hidden;
+        }
+
+
+}
+.intro > .message {
+        width: 742px;
+        height: 300px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        overflow: auto;
+}
+
+h3 {
+        -webkit-column-span: 2;
+        column-span: 2;
+}
+
+.intro > .image1 {
+        padding: 10px;
+        margin: 10px;
+        height: 300px;
+        width: 742px;
+        overflow: auto;
+}
+
+.goals {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: yellow;
+        overflow: auto;
+}
+
+.goals > .vision {
+        width: 742px;
+        height: 300px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        overflow: auto;
+}
+
+.goals > .mission {
+        padding: 10px;
+        margin: 10px;
+        height: 300px;;
+        width: 742px;
+        text-align: center;
+        overflow: hidden;
+}
+
+h4 {
+        margin: 0;
+}
+
+.image2 {
+        display: block;
+        height: 300px;
+        width: 100%;
+}
+
+.lastbar {
+        background-color: black;
+        display: block;
+        height: 400px;
+        width: 742px;
+        padding: 10px;
+        margin: 10px;
+}
+
+.video-container {
+        position:relative;
+	    padding-bottom: 30%;
+	    padding-top:30px;
+	    height: 0;
+	    overflow: scroll;
+	    width: 70%;
+	    background-color: black;
+	    margin: auto auto;
+	    border-width: 6px;
+	    border-style: groove;
+	    border-color: white;
+
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:85%;
+	padding-top: 5px;
+}
+
+.video-container > .sometext {
+        display: block;
+        color: white;
+        position: relative;
+        width: 742px;
+}
+
+h7 {
+        color: white;
+}
+.footer {
+        position: fixed;
+        bottom: 0;
+        padding: 0;
+        width: 100%;
+        background: linear-gradient(grey, black);
+        left: 0;
+        text-align: center;
+        color: white;
+}
