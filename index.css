@@ -192,6 +192,7 @@ h7 {
         color: white;
 }
 .footer {
+        display: block;
         position: fixed;
         bottom: 0;
         padding: 0;
@@ -200,4 +201,12 @@ h7 {
         left: 0;
         text-align: center;
         color: white;
+        height: 10%;
 }
+
+.footer > div {
+        display: inline-block;
+        padding: 30px;
+        margin-right: 40px;
+}
+
