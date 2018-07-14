@@ -7,6 +7,7 @@ body {
         background-repeat: repeat;
         border-width: 3px;
         border-style: groove;
+        border-radius: 6px;
 }
 
 h1 {
@@ -23,6 +24,7 @@ ul {
         padding: 0;
         background: linear-gradient(yellow, red);
         height: 50px;
+        border-radius: 6px;
 }
 
 li {
@@ -49,6 +51,7 @@ li a:hover {
         display: flex;
         flex-wrap: wrap;
         background: linear-gradient(red, green);
+        border-radius: 6px;
 }
 
 .welcome > h2 {
@@ -63,12 +66,12 @@ li a:hover {
         display: flex;
         flex-wrap: wrap;
         background-color: green;
+        border-radius: 6px;
 }
 
 @media screen and (max-width: 1000px) {
         .intro > .message {
                 display: block;
-                width: 100%;
                 height: 300px;
                 margin: auto auto;
                 padding-left: 50px;
@@ -77,6 +80,7 @@ li a:hover {
                 text-align: center;
                 color: red;
                 overflow: hidden;
+                text-overflow: ellipsis;
         }
 
         .intro > .image1 {
@@ -85,11 +89,30 @@ li a:hover {
                 padding: 10px;
                 margin: auto auto;
                 height: 300px;
-                width: 100%;
                 overflow: hidden;
         }
-
-
+        .footer {
+                display: inline;
+                position: fixed;
+                bottom: 0;
+                padding: 0;
+                width: 100%;
+                background: linear-gradient(grey, black);
+                left: 0;
+                color: white;
+                height: 10%;
+        }
+        .footer > div {
+                display: inline-block;
+                padding-top: 5px;
+        }
+        .goals > mission {
+                text-overflow: ellipsis;
+        }
+        .goals > mission {
+                text-overflow: ellipsis;
+                overflow: auto;
+        }
 }
 .intro > .message {
         width: 742px;
@@ -98,11 +121,6 @@ li a:hover {
         padding: 10px;
         text-align: center;
         overflow: auto;
-}
-
-h3 {
-        -webkit-column-span: 2;
-        column-span: 2;
 }
 
 .intro > .image1 {
@@ -118,6 +136,7 @@ h3 {
         flex-wrap: wrap;
         background-color: yellow;
         overflow: auto;
+        border-radius: 6px;
 }
 
 .goals > .vision {
@@ -136,6 +155,7 @@ h3 {
         width: 742px;
         text-align: center;
         overflow: hidden;
+        text-overflow: ellipsis;
 }
 
 h4 {
@@ -177,7 +197,7 @@ h4 {
 	top:0;
 	left:0;
 	width:100%;
-	height:85%;
+	height:95%;
 	padding-top: 5px;
 }
 
@@ -199,14 +219,13 @@ h7 {
         width: 100%;
         background: linear-gradient(grey, black);
         left: 0;
-        text-align: center;
         color: white;
         height: 10%;
 }
 
 .footer > div {
         display: inline-block;
-        padding: 30px;
-        margin-right: 40px;
+        padding-top: 20px;
+        padding-left: 10px;
 }
 
