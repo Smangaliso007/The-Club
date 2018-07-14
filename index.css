@@ -1,6 +1,10 @@
-
 body {
-        background-color: black;
+        background-color: yellow;
+}
+
+body::-webkit-scrollbar {
+        display: none;
+
 }
 .header {
         background-image: url("http://i63.tinypic.com/15xmzbs.jpg");
@@ -64,28 +68,43 @@ li a:hover {
 }
 .intro {
         display: flex;
-        flex-wrap: wrap;
-        background-color: green;
+        flex-wrap: no-wrap;
+        background-color: yellow;
         border-radius: 6px;
+        border-collapse: collapse;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
+
+        .welcome > h2 {
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        padding: 20px;
+        margin: auto auto;
+        color: white;
+        }
+
+        h1 {
+                text-align: center;
+                color: blue;
+                font-size: 40px;
+                font-weight: bold;
+                word-wrap: wrap;
+        }
+
         .intro > .message {
-                display: block;
+                display: inline-block;
                 height: 300px;
                 margin: auto auto;
                 padding-left: 50px;
                 text-align: center;
-                border: 1px solid black;
-                text-align: center;
-                color: red;
                 overflow: hidden;
                 text-overflow: ellipsis;
         }
 
         .intro > .image1 {
                 display: block;
-                background-color: green;
                 padding: 10px;
                 margin: auto auto;
                 height: 300px;
@@ -100,7 +119,7 @@ li a:hover {
                 background: linear-gradient(grey, black);
                 left: 0;
                 color: white;
-                height: 10%;
+                height: 5%;
         }
         .footer > div {
                 display: inline-block;
@@ -127,13 +146,13 @@ li a:hover {
         padding: 10px;
         margin: 10px;
         height: 300px;
-        width: 742px;
+        width: 732px;
         overflow: auto;
 }
 
 .goals {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: no-wrap;
         background-color: yellow;
         overflow: auto;
         border-radius: 6px;
@@ -154,8 +173,7 @@ li a:hover {
         height: 300px;;
         width: 742px;
         text-align: center;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        overflow: auto;
 }
 
 h4 {
@@ -168,27 +186,22 @@ h4 {
         width: 100%;
 }
 
-.lastbar {
-        background-color: black;
-        display: block;
-        height: 400px;
-        width: 742px;
-        padding: 10px;
-        margin: 10px;
-}
 
 .video-container {
+        display: flex;
+        flex-wrap: no-wrap;
         position:relative;
 	    padding-bottom: 30%;
 	    padding-top:30px;
 	    height: 0;
 	    overflow: scroll;
-	    width: 70%;
-	    background-color: black;
+	    width: 60%;
 	    margin: auto auto;
 	    border-width: 6px;
 	    border-style: groove;
 	    border-color: white;
+	    border-radius: 10px;
+	    margin: auto auto;
 
 }
 
@@ -198,18 +211,19 @@ h4 {
 	left:0;
 	width:100%;
 	height:95%;
-	padding-top: 5px;
 }
 
 .video-container > .sometext {
         display: block;
-        color: white;
-        position: relative;
-        width: 742px;
+        color: black;
+        width: 50%;
+        margin-left: 200px;
+        padding-left: 200px;
+        word-wrap: wrap;
 }
 
 h7 {
-        color: white;
+        color: black;
 }
 .footer {
         display: block;
@@ -227,5 +241,21 @@ h7 {
         display: inline-block;
         padding-top: 20px;
         padding-left: 10px;
+}
+
+.message::-webkit-scrollbar {
+        display: none;
+}
+
+.vision::-webkit-scrollbar {
+        display: none;
+}
+
+.mission::-webkit-scrollbar {
+        display: none;
+}
+
+.video-container::-webkit-scrollbar {
+        display: none;
 }
 
