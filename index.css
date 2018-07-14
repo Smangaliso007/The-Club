@@ -92,21 +92,14 @@ li a:hover {
                 overflow: hidden;
         }
         .footer {
-                display: inline;
-                position: fixed;
-                bottom: 0;
-                padding: 0;
-                width: 100%;
-                background: linear-gradient(grey, black);
-                left: 0;
-                color: white;
-                height: 10%;
+                display: none;
         }
         .footer > div {
                 display: inline-block;
                 padding-top: 5px;
         }
         .goals > mission {
+                overflow: hidden;
                 text-overflow: ellipsis;
         }
         .goals > mission {
