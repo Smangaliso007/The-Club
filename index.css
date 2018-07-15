@@ -126,6 +126,7 @@ li a:hover {
                 padding-top: 5px;
         }
         .goals > mission {
+                overflow: hidden;
                 text-overflow: ellipsis;
         }
         .goals > mission {
