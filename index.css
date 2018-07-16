@@ -109,10 +109,11 @@ h6 {
 .video-container iframe, .video-container object, .video-container embed {
 	    position: relative;
 	    display: block;
-	    width: 50%;
+	    width: 90%;
 	    padding-left: 20px;
+	    padding-bottom: 20px;
 	    margin: auto auto;
-	    height: 80%;
+	    height: 75%;
 
 }
 
