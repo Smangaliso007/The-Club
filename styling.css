@@ -189,3 +189,56 @@ THIS BELONGS TO THE VIDEO THUMBNAIL THAT JUST HAS THE PROBLEM OF BEING VERY SMAL
                         <a target="_blank" href="https://www.youtube.com/embed/1WcXGWYCqT8">
                             <img src="IMG_0282-S.jpg" alt="Forest" style="width:150px">
                         </a>
+
+THIS BELONGS TO THE FONTS TYPE OF THE HEADER FROM GOOGLE FONTS
+
+font-family: 'Frijole', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Ewert', cursive;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Ubuntu Mono', monospace;
+
+
+THIS BELONGS TO THE TAG ON THE TP OF THE VIDEO
+
+h6 {
+        text-align: center;
+        margin: 20px;
+        margin-left: 30px;
+        padding-left: 10px;
+        padding-top: 20px;
+        font-size: 20px;
+}
+
+THIS BELONGS TO THE CSS FOR THE MEDIA QUERIES: THAT IS BECAUSE WE WILL BE USING ANOTHER APPROAH WHICH INVOLVES DESIGNING THE SITE FOR MOBILE ANYWAY
+
+@media screen and (max-width: 600px) {
+
+        .intro > .message   {
+                width: 100%;
+                margin-left: 0;
+                float: left;
+                display: block;
+                color: blue;
+                height: 50%;
+       }
+
+        .intro > .video-container {
+                width: 100%;
+                float: left;
+                display: block;
+                height: 50%;
+
+        }
+}
+
+AND THIS THE "INTRO TO THE CULTURE"
+
+h6 {
+        text-align: center;
+        margin: 20px;
+        margin-left: 30px;
+        padding-left: 10px;
+        padding-top: 20px;
+        font-size: 20px;
+}
