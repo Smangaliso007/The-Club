@@ -1,5 +1,5 @@
 body {
-        background-color: yellow;
+        font-family: 'Ubuntu Mono', monospace;
 }
 
 body::-webkit-scrollbar {
@@ -7,8 +7,6 @@ body::-webkit-scrollbar {
 
 }
 .header {
-        background-image: url("http://i63.tinypic.com/15xmzbs.jpg");
-        background-repeat: repeat;
         border-width: 3px;
         border-style: groove;
         border-radius: 6px;
@@ -54,7 +52,7 @@ li a:hover {
 .welcome {
         display: flex;
         flex-wrap: wrap;
-        background: linear-gradient(red, green);
+        background: linear-gradient(red, teal);
         border-radius: 6px;
 }
 
@@ -69,7 +67,6 @@ li a:hover {
 .intro {
         display: flex;
         flex-wrap: no-wrap;
-        background-color: yellow;
         border-radius: 6px;
         border-collapse: collapse;
         margin-left:
@@ -77,6 +74,8 @@ li a:hover {
         border-bottom-width: 3px;
         border-bottom-style: solid;
         border-bottom-color: red;
+        width: 85%;
+        margin: auto auto;
 }
 
 .intro > .message {
@@ -88,18 +87,30 @@ li a:hover {
         overflow: auto;
 }
 
-.intro > .image1 {
-        padding: 10px;
-        margin: 10px;
-        height: 300px;
-        width: 732px;
-        overflow: auto;
+.video-container {
+	height:0;
+}
+
+h6 {
+        text-align: center;
+        margin: 20px;
+        margin-left: 30px;
+        padding-left: 10px;
+        padding-top: 20px;
+        font-size: 20px;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	    position:absolute;
+	    width: 35%;
+	    padding-left: 20px;
+	    height: 45%;
 }
 
 .goals {
         display: flex;
         flex-wrap: no-wrap;
-        background-color: yellow;
+        width: 85%;
+        margin: auto auto;
         overflow: auto;
         border-radius: 6px;
         padding-bottom: 40px;
@@ -125,46 +136,6 @@ li a:hover {
 
 h4 {
         margin: 0;
-}
-
-.image2 {
-        display: block;
-        height: 300px;
-        width: 100%;
-}
-
-
-.video-container {
-        display: flex;
-        flex-wrap: no-wrap;
-        position:relative;
-	    padding-bottom: 30%;
-	    padding-top:30px;
-	    height: 0;
-	    overflow: scroll;
-	    width: 60%;
-	    margin: auto auto;
-
-	    border-radius: 10px;
-	    margin: auto auto;
-
-}
-
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-}
-
-.video-container > .sometext {
-        display: block;
-        color: black;
-        width: 50%;
-        margin-left: 200px;
-        padding-left: 200px;
-        word-wrap: wrap;
 }
 
 h7 {
@@ -206,7 +177,29 @@ h7 {
         display: none;
 }
 
-@media screen and (max-width: 768px;) {
+@media screen and (max-device-width: 600px;) {
 
+        .intro {
+                display: block;
+                float: none;
+        }
 
+        .intro > .message {
+                display: block;
+                float: none;
+                width: 100%;
+
+        }
+
+        .intro > .video-container {
+                display: block;
+                float: none;
+        }
+
+        .intro > .video-container iframe, .video-container object, .video-container embed {
+	            position:absolute;
+	            width: 100%;
+	            padding-left: 20px;
+	            height: 45%;
+        }
 }

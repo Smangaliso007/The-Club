@@ -142,6 +142,7 @@ li a:hover {
 }
 >>>>>>> fb8822f0ef404f39463bd825c961000127dbb61b
 
+THIS BELONGS TO THE ATTEMPT TO INPUT SOCIAL MEDIA ICONS FOR CONTACT
 
 <div>
                     <h10><a href="https://www.facebook.com/TheNETAfricanYouth">Facebook</a></h10>
@@ -160,3 +161,31 @@ li a:hover {
 <a href="https://www.instagram.com/thenet.africanyouth_naycultic/" class="fa fa-instagram" style="font-size:48px;color:red"></i>
 
 <a href="https://twitter.com/NayCultic" class="fa fa-twitter-square" style="font-size:48px;color:red"></i>
+
+THIS BELONGS TO THE ATTEMPT TO INPUT A THUMBNAIL AS A HOLDER FOR THE VIDEO
+
+<a target="_blank" href="img_forest.jpg">
+  <img src="img_forest.jpg" alt="Forest" style="width:150px">
+</a>
+
+***AND THIS IS THE "ORIGINAL" CODE
+
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1WcXGWYCqT8"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                        </iframe>
+                    </div>
+
+THIS BELONGS TO THE NAVIGATION BAR JUST IN CASE I DECIDE TO BRING IT BACK
+
+<div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+
+THIS BELONGS TO THE VIDEO THUMBNAIL THAT JUST HAS THE PROBLEM OF BEING VERY SMALL AND OTHERWISE STICKS PERFECTLY: SO WE MIGHT USE THAT IN THE MEDIA QUERIES
+
+                        <a target="_blank" href="https://www.youtube.com/embed/1WcXGWYCqT8">
+                            <img src="IMG_0282-S.jpg" alt="Forest" style="width:150px">
+                        </a>
