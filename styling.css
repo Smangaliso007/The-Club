@@ -242,3 +242,33 @@ h6 {
         padding-top: 20px;
         font-size: 20px;
 }
+
+THIS BELONGS TO THE JAVASCRIPT FOR THE HEADER I.E AUTOMATIC SLIDESHOW
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+Try It Yourself »
+
+
+THIS BELONGS TO THE HEADER THAT IS NOT AUTOMATIC
+
+<div class="header">
+            <script src="index.js"></script>
+            <img class="slides" src="sted.jpg" style="width:100%">
+            <img class="slides" src="sted2.jpg" style="width:100%">
+            <img class="slides" src="NAY.jpg" style="width:100%">
+            <img class="slides" src="IMG_0282-S.jpg" style="width:100%">
+        </div>
+

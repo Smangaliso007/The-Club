@@ -8,13 +8,40 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ewert|Frijole|Ribeye+Marrow|Rye" rel="stylesheet">
 <!-- THIS IS THE STYLESHEET FOR THE SOCIAL MEDIA ICONS -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-        <div class="header">
-            <h1>NAY CULTURE</h1>
+        <div class="superior">
+            <!--
+             <div class="headercon">
+                    <h1>NAY CULTURE</h1>
+             </div>
+
+             -->
+            <div class="header" style="max-width:100%">
+                <img class="mySlides" src="sted2.jpg" style="width:100%; height: 500px">
+                <img class="mySlides" src="sted.jpg" style="width:100%; height: 500px">
+                <div class="text-block">
+                    <h1>NAY CULTURE</h1>
+                </div>
+            </div>
         </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 6000); // Change image every 2 seconds
+}
+</script>
 
 <!--The end of the Header -->
 
