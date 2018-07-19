@@ -272,3 +272,20 @@ THIS BELONGS TO THE HEADER THAT IS NOT AUTOMATIC
             <img class="slides" src="IMG_0282-S.jpg" style="width:100%">
         </div>
 
+THIS BELONGS TO THE HEADER NAME
+
+                    <div class="text-in">
+                        <h1>NAY CULTURE</h1>
+                    </div>
+** THIS IS THE CSS FOR THAT
+
+.text-in {
+        display: block;
+        width: 76%;
+}
+
+THIS IS THE CSS FOR THE BLOCK OF THE HEADER--TRANSITIONING
+
+-webkit-transition: width 2s linear 1s; /* For Safari 3.1 to 6.0 */
+    transition: height 2s linear 1s;
+
