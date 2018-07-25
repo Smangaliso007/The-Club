@@ -1,0 +1,20 @@
+1. Divide the content into pages themselves so:
+    1.1 Vision, Mission into separate pages but leave the video
+        on the Home page.
+(***DONE***)
+
+2. Do the CSS for @Media queries
+    2.1 The FONT all around
+    2.2 The SIZE of the IMAGES
+    2.3 SIZE of the HEADER which is actually just the FONT
+    2.4 The SIZE of the VIDEO
+
+3. Make sure the HOVER FUNCTION occurs at the MENU BUTTON
+    3.1 Remove the HEADER UNDERLINE
+    3.2 Instead create a HEADER BAR/SIDE NAVIGATION(LEFT)
+(***DONE-SORTA well we sort of did it another way which works just fine as we would have hoped
+        obviously as we accept it***)
+
+4. GODDAMN IT! PUT SOME CONTENT ONTO THERE
+
+5. ADD IMAGES FROM THE VIDEO AS THE BACKGROUND ON VISION AND MISSION AS WELL AS HOME

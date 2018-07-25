@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VISION</title>
+    <link rel="stylesheet" href="vision.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ewert|Frijole|Ribeye+Marrow|Rye" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="superior">
+            <div class="header" style="max-width:100%">
+                <div class="text-block">
+                <div class="cover">
+                    <div class="head">
+                        <div class="menu"></div>
+                        <div class="menu"></div>
+                        <div class="menu"></div>
+                    </div>
+                    <div class="text-in">
+                        <h1>NAY CULTURE</h1>
+                    </div>
+                    <div class="items">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="vision.html">VISION</a></li>
+                            <li><a href="mission.html">MISSION</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <img class="mySlides" src="INTRODUCTION_044.jpg" style="width:100%; height: 500px">
+                <img class="mySlides" src="INTRODUCTION_033.jpg" style="width:100%; height: 500px">
+            </div>
+        </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 6000); // Change image every 6 seconds
+}
+</script>
+        <div class="goals">
+                <div class="vision">
+                    <h4>VISION</h4>
+                        <p>Currently South Africa is in the stage of an economic revolution, still pursuing the decolonization of the economic systems in function
+                            which could be used to argue for the statement that South Africa and thereby Africa is still colonized. There have been many an African
+                            country who have attempted to implement the democratic system such as in  South Africa- especially since South Africa boasts one of the
+                            most prominent economies in Africa, and there has always been an almost indistinguishable relation between the prosperity of a countries
+                            political governance and the success of its economy- yet not many have succeed failing the balance/control over economy due to inadequate
+                            political governance. Whilst our South Africa has subtly claimed a leadership role in the African economy as well as Political arena, we
+                            have not done the necessary work to liberate power from the hands of the consequences of Colonialism and it could be argued that its the
+                            very pursuit of an Economic revolution that has faulted South Africans into apparent mayhem. When you consider the 5-point list above as
+                            a guide through decolonization you might have the question of whether or not it would've been better to target Economic freedom before
+                            Political, however now that we are where we are, here's another question, when South Africa achieved the elections of an African President
+                            was it then the end of the purpose of the Political Fight?</p>
+                </div>
+            </div>
+
+        <div class="footer">
+            <a href="https://www.facebook.com/TheNETAfricanYouth"><i class="fa fa-facebook-square" style="font-size:48px;color:red"></i></a>
+            <a href="https://twitter.com/NayCultic"><i class="fa fa-twitter-square" style="font-size:48px;color:red"></i></a>
+            <a href="https://www.instagram.com/thenet.africanyouth_naycultic/"><i class="fa fa-instagram" style="font-size:48px;color:red"></i></a>
+        </div>
+</body>
+</html>
