@@ -6,7 +6,6 @@ body::-webkit-scrollbar {
         display: none;
 }
 
-
 .superior {
         position: relative;
         display: block;
@@ -118,11 +117,34 @@ li a:hover {
         border-radius: 6px;
 }
 
+.anime {
+        display: block;
+        word-wrap: nowrap;
+        width: 50%;
+        height: 50px;
+        background: transparent;
+        position: relative;
+        -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+        animation: mymove 5s infinite;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+}
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 54%;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 54%;}
+}
+
 .welcome > h2 {
         text-align: center;
-        font-size: 1.1em;
+        font-size: 16px;
         font-style: italic;
-        padding: 20px;
         margin: auto auto;
         color: white;
 }
