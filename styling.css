@@ -322,3 +322,16 @@ THE QUOTE IS ACTUALLY A TEXT THAT IS MOVING FROM SIDE TO SIDE OR SOMETHING OF TH
     from {left: 0px;}
     to {left: 200px;}
 }
+
+
+THIS IS THE @MEDIA QUERIES CSS
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 299px) and (max-width: 1300px) {
+        .text-block {
+                width: 80%;
+        }
+}

@@ -17,8 +17,27 @@ body::-webkit-scrollbar {
 
 }
 
+@media screen and (min-width: 300px) and (max-width: 768px) {
+        .superior {
+                height: 5%;
+        }
+}
+
+@media screen and (min-width: 299px) and (max-width: 768px) {
+        .header {
+                display: block;
+                height: 250px;
+        }
+}
+
 .mySlides {
         object-fit: fill;
+}
+
+@media screen and (min-width: 299px) and (max-width: 768px) {
+        .mySlides {
+                height: 250px;
+        }
 }
 
 .text-block {
@@ -35,6 +54,12 @@ body::-webkit-scrollbar {
     overflow: hidden;
     -webkit-transition: height 1s linear; /* For Safari 3.1 to 6.0 */
     transition: height 1s linear;
+}
+
+@media screen and (min-width: 299px) and (max-width: 768px) {
+        .text-block {
+                width: 250px;
+        }
 }
 
 .text-block:hover {
@@ -93,6 +118,12 @@ h1 {
         float: left;
 }
 
+@media and screen and (min-width: 299px) and (max-width: 768px) {
+        h1 {
+                font-size: 16px;
+        }
+}
+
 li {
         float: none;
 }
@@ -148,6 +179,13 @@ li a:hover {
         margin: auto auto;
         color: white;
 }
+
+@media screen and (min-width: 299px) and (max-width: 768px) {
+        h2 {
+                font-size: 10px;
+        }
+}
+
 .intro {
         display: flex;
         flex-wrap: no-wrap;
@@ -166,6 +204,12 @@ li a:hover {
         padding: 10px;
         text-align: center;
         overflow: auto;
+}
+
+@media screen and (min-width: 299px) and (max-width: 768px) {
+        .message {
+                font-size: 8px;
+        }
 }
 
 h6 {
