@@ -154,12 +154,12 @@ h1 {
 @media screen and (min-width: 299px) and (max-width: 768px) {
         @-webkit-keyframes mymove {
             from {left: 0px;}
-            to {left: 52%}
+            to {left: 50%}
         }
 
         @keyframes mymove {
             from {left: 0px;}
-            to {left: 52%}
+            to {left: 50%}
         }
 }
 
