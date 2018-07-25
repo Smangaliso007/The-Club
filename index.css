@@ -17,21 +17,9 @@ body::-webkit-scrollbar {
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 768px) {
-        .superior {
-                height: 5%;
-        }
-}
-
-@media screen and (min-width: 299px) and (max-width: 768px) {
-        .header {
-                display: block;
-                height: 250px;
-        }
-}
-
 .mySlides {
         object-fit: fill;
+        height: 500px;
 }
 
 @media screen and (min-width: 299px) and (max-width: 768px) {
@@ -101,7 +89,7 @@ body::-webkit-scrollbar {
 
 .text-in {
         top: 0;
-        left: 21%;
+        left: 20%;
         position: absolute;
         display: block:
         float: right;
@@ -118,7 +106,7 @@ h1 {
         float: left;
 }
 
-@media and screen and (min-width: 299px) and (max-width: 768px) {
+@media screen and (min-width: 299px) and (max-width: 768px) {
         h1 {
                 font-size: 16px;
         }
@@ -197,6 +185,12 @@ li a:hover {
         margin: auto auto;
 }
 
+@media screen and (min-width: 299px) and (max-width: 768px) {
+        .intro {
+                width: 100%;
+        }
+}
+
 .intro  .message {
         width: 100%;
         height: 300px;
@@ -221,11 +215,16 @@ h6 {
         font-size: 16px;
 }
 
+@media screen and (min-width: 299px) and (max-width: 768px) {
+        h6 {
+                font-size: 10px;
+        }
+}
 
 .video-container {
         height: 600px;
         width: 85%;
-        margin: auto auto;
+        margin: 0 auto;
         border-radius: 6px;
         border-bottom-width: 3px;
         border-bottom-style: solid;
@@ -233,24 +232,30 @@ h6 {
 
 }
 
+@media screen and (min-width: 299px) and (max-width: 768px) {
+        .video-container {
+                height: 400px;
+                width: 100%;
+                margin: 0;
+        }
+}
+
 .video-container iframe, .video-container object, .video-container embed {
 	    position: relative;
 	    display: block;
-	    width: 50%;
-	    margin: auto auto;
+	    width: 90%;
+	    margin: 0 auto;
 	    height: 70%;
         border: 10px groove red;
         border-radius: 5px;
 }
 
-h4 {
-        margin: 0;
+@media screen and (min-width: 299px) and (max-width: 768px) {
+        .video-container iframe, .video-container object, .video-container embed {
+                width: 90%
+                height: 70%
+        }
 }
-
-h7 {
-        color: black;
-}
-
 
 .footer {
         display: block;

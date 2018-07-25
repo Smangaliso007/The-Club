@@ -18,21 +18,9 @@ body::-webkit-scrollbar {
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 768px) {
-        .superior {
-                height: 5%;
-        }
-}
-
-@media screen and (min-width: 299px) and (max-width: 768px) {
-        .header {
-                display: block;
-                height: 250px;
-        }
-}
-
 .mySlides {
         object-fit: fill;
+        height: 500px;
 }
 
 @media screen and (min-width: 299px) and (max-width: 768px) {
