@@ -8,6 +8,10 @@
     2.2 The SIZE of the IMAGES
     2.3 SIZE of the HEADER which is actually just the FONT
     2.4 The SIZE of the VIDEO
+    2.5 SO YOU DECIDED ON DOING THREE TYPES OF DEVICES
+        2.5.1 299PX-768PX- (***AND THIS ONE IS ABOUT DONE***)
+        2.5.2 769PX-1300PX
+        2.5.3 1300PX-1610PX
 
 3. Make sure the HOVER FUNCTION occurs at the MENU BUTTON
     3.1 Remove the HEADER UNDERLINE
